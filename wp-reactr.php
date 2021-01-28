@@ -17,8 +17,8 @@ if ( ! defined( 'WPINC' ) ) {
 	die;
 }
 
-define( 'WPHE_PATH', untrailingslashit( plugin_dir_path( __FILE__ ) ) );
-define( 'WPHE_URL', untrailingslashit( plugin_dir_url( __FILE__ ) ) );
+define( 'WPR_PATH', untrailingslashit( plugin_dir_path( __FILE__ ) ) );
+define( 'WPR_URL', untrailingslashit( plugin_dir_url( __FILE__ ) ) );
 
 // localize.
 $textdomain_dir = plugin_basename( dirname( __FILE__ ) ) . '/languages';
