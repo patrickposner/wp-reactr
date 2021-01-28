@@ -1,0 +1,12 @@
+$ cat .gitignore
+# exclude node_modules 
+/node_modules
+
+# exclude composer dependencies. 
+/vendor
+
+# exclude built assets
+/assets/*
+
+#exclude Mac files.
+.DS_STORE

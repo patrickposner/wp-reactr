@@ -1,0 +1,19 @@
+{
+    "name": "patrickposner/wp-reactr",
+    "description": "A simple boilerplate to use React in WordPress plugins.",
+    "type": "wordpress-plugin",
+    "require": {
+    },
+    "license": "gpl",
+    "authors": [
+      {
+        "name": "Patrick Posner",
+        "email": "support@patrickposner.dev"
+      }
+    ],
+    "autoload": {
+      "classmap": [
+        "src/"
+      ]
+    }
+  }
