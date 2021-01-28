@@ -22,7 +22,7 @@ define( 'WPR_URL', untrailingslashit( plugin_dir_url( __FILE__ ) ) );
 
 // localize.
 $textdomain_dir = plugin_basename( dirname( __FILE__ ) ) . '/languages';
-load_plugin_textdomain( 'wp-headless-experiments', false, $textdomain_dir );
+load_plugin_textdomain( 'wp-reactr', false, $textdomain_dir );
 
 
 // run autoloader.
